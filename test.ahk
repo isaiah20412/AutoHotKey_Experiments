@@ -7,10 +7,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Part Number Shortcuts
 :*:fl500s::AA5Z6714A{Tab}
 :*:fl2051::BC3Z6731B{Tab}
-:*:pk2051::
-Send, FL2051{Tab}
-Sleep, 1000
-Send, 13/XO10W30BSD{Enter}
+;:*:pk2051::
+;Send, FL2051{Tab}
+;Sleep, 1000
+;Send, 13/XO10W30BSD{Enter}
 return
 
 
