@@ -5,16 +5,32 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ; Part Number Shortcuts
-:*:fl500s::AA5Z6714A{Tab}
+; Ford Oil Filters
+:*:fl500::AA5Z6714A{Tab}
 :*:fl2051::BC3Z6731B{Tab}
-;:*:pk2051::
-;Send, FL2051{Tab}
-;Sleep, 1000
-;Send, 13/XO10W30BSD{Enter}
-return
+:*:fl820::F18Z6731BD{Tab}
+:*:FL910::BE8Z6731AB{Tab}
+:*:FL2062::KU2Z6731A{Tab}
+:*:FL400::E4FZ6731AB{Tab}
+:*:FL2069::GR3Z6731A{Tab}
+:*:FL2081::JL3Z6731A{Tab}
+:*:FL2082::JX6Z6731B{Tab}
+:*:FL20::C1TZ6731B{Tab}
+:*:FL2016::3C3Z6731AA{Tab}
+:*:FL1995::F4TZ6731B{Tab}
+
+; Ford Air Filters
+:*:FA1927::HC3Z9601A{Tab}
+:*:FA1883::7C3Z9601A{Tab}
+
+; Dodge Oil Filters
+:*:MO285::5083285AA{Tab}
 
 
-; Special Order Shortcuts
+
+; Note Shortcuts
+
+; Special Order
 ; One day
 ~1 & s::
 ~s & 1::
@@ -38,3 +54,6 @@ return
 ~s & 5::
 Send, {BackSpace}S/O 5-7 days.
 return
+
+
+; Parts Info
